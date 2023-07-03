@@ -44,7 +44,7 @@ var twoSum = function (nums, target) {
 
 // hash map look up runs at O(1)
 
-var twoSum = function (nums, target) {
+var twoSumOptimized = function (nums, target) {
   const numsMap = {};
   for (let p = 0; p < nums.length; p++) {
     const currentMapVal = numsMap[nums[p]];
